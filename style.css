@@ -12,10 +12,14 @@ p{
   font-size: 150%;
 }
 ul{
-  list-style-type: none;
-  font-size: 200%;
+  list-style-type: circle;
+  font-size: 150%;
   font-family: monospace;
   color: #ccc;
+}
+
+li{
+  margin-bottom: 1ch;
 }
 
 .header {
