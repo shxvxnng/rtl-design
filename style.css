@@ -35,7 +35,7 @@ li{
   animation: typing 3s steps(10), blink .5s step-end infinite alternate;  
   white-space: nowrap;
   overflow: hidden;
-  border-right: 10px solid;
+  border-right: 1ch solid;
   font-family: monospace;
   font-size: 3em;
 }
@@ -47,6 +47,9 @@ li{
 }
     
 @keyframes blink {
+  0% {
+    border-color: #121212;
+  }
   50% {
     border-color: #36abef;
   }
