@@ -74,8 +74,9 @@ li{
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #662fad;
-  font-size: 150%;
+  padding: 10px 24px;
+  background-color: #36abef;
+  /*font-size: 150%;*/
 }
 
 /* Create an active/current tablink class */
